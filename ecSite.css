@@ -1,0 +1,136 @@
+body{
+    margin: 0 auto;
+}
+#header{
+    box-shadow: 0px 2px 2px gray;
+    position: relative;
+}
+#headerImage{
+    margin-left: 100px;
+    width: 150px;
+    height: 100px;
+    border: none;
+}
+img{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 1px solid rgb(150, 150, 150);
+}
+#itemBox{
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    background-color: bisque;
+}
+#searchBox{
+    margin: 0 auto;
+    width: 300px;
+    border: 0.5px solid;
+    box-shadow: 3px 3px 3px gray;
+    display: block;
+}
+#searchBox > p {
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.textBox{
+    border-radius: 20px;
+    width: 200px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.button{
+    color: #fff;
+    border-radius: 10px;
+    background-color: #72b800;
+    border-bottom: 5px solid #358511;
+}
+.button:hover {
+    margin-top: 3px;
+    color: #fff;
+    background: #72b800;
+    border-bottom: 2px solid #358511;
+}
+#list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-left:0;
+    justify-content: center;
+    width:1200px;
+}
+#list > li{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: white;
+    list-style-type: none;
+    width: 200px;
+    height: 250px;
+    margin: 30px 30px;
+    box-shadow: 3px 3px 3px gray;
+}
+.name{
+    color: gray;
+}
+.price{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+#cart-item{
+    list-style: none;
+    padding-left:10px;
+    width: 280px;
+    border-left: 1px solid gray;
+}
+#cart-item > li{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 5px;
+    list-style-type: none;
+    font-size: 12px;
+    width: 250px;
+    height: 32px;
+    box-shadow: 3px 3px 3px gray;
+}
+#sumPrice{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    list-style-type: none;
+    width: 250px;
+    height: 30px;
+    box-shadow: 3px 3px 3px gray;
+}
+.delButton{
+    color: #fff;
+    border-radius: 10px;
+    background-color:red;
+    border-bottom: 5px solid rgb(109, 2, 2);
+}
+.delButton:hover {
+    margin-top: 3px;
+    color: #fff;
+    background: red;
+    border-bottom: 2px solid rgb(109, 2, 2);
+}
+#container{
+    display:flex;
+}
+#footer{
+    height: 100px;
+    justify-content: center;
+    border-top: 1px solid gray;
+    display: flex;
+}
+#footer > div{
+    margin-top:40px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
